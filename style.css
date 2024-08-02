@@ -1,0 +1,122 @@
+/* General container styling */
+.container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Navigation styling */
+.nav {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.start {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.stock-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stock-input dcc-Input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.stock-input html-Button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.stock-input html-Button:hover {
+    background-color: #0056b3;
+}
+
+.date-input {
+    margin-bottom: 20px;
+}
+
+.selectors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selectors dcc-Input {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.selectors html-Button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.selectors html-Button:hover {
+    background-color: #0056b3;
+}
+
+/* Content styling */
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.company-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#description {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+#graphs-content,
+#main-content,
+#forecast-content {
+    margin-bottom: 20px;
+}
+
+dcc-Graph {
+    margin-top: 20px;
+}
+
